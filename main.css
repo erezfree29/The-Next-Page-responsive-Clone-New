@@ -1,14 +1,14 @@
-.footer_top {
-  background-color: #131313; 
-  height: 30vw;
-}
-
 .footer_icons {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-right: 6%;
   padding-top: 9%;
+}
+
+.footer_top {
+  background-color: #131313; 
+  height: 30vw;
 }
 
 .avatar {
