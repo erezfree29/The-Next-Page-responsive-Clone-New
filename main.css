@@ -1,0 +1,94 @@
+.footer_icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 9%;
+  padding-right: 6%;
+}
+
+.footer_top {
+  height: 30vw;
+  background-color: #131313;
+}
+
+.avatar {
+  border-radius: 50%;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
+}
+
+.fa-facebook-square,
+.fa-twitter-square,
+.fa-youtube-square,
+.fa-instagram-square,
+.fa-pinterest-p,
+.fa-rss,
+.fa-envelope {
+  color: white;
+}
+
+.av_one,
+.av_two,
+.av_three,
+.av_four,
+.av_five,
+.av_six {
+  margin-right: 2%;
+}
+
+.footer_links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3%;
+}
+
+.events,
+.about,
+.advertise,
+.jobs {
+  margin-right: 2%;
+}
+
+.footer_links a {
+  color: #aaa;
+}
+
+.footer_bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  height: 25vw;
+}
+
+.logo {
+  width: 25%;
+  padding-bottom: 8%;
+  padding-right: 3%;
+  padding-left: 10%;
+}
+
+.stack {
+  width: 35%;
+  color: white;
+}
+
+.copyrights {
+  display: flex;
+}
+
+.fa-copyright,
+.text {
+  color: #aaa;
+  padding-right: 1%;
+}
+
+@media (max-width: 415px) {
+  .small_font {
+    font-size: 0.7rem;
+  }
+}
