@@ -87,8 +87,41 @@
   padding-right: 1%;
 }
 
+.deals_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #f42;
+}
+
+.latest_deals {
+  padding-left: 1.5%;
+}
+
+.see_all_deals {
+  padding-top: 2.5%;
+  padding-right: 1.5%;
+}
+
+.deal_image {
+  width: 40%;
+}
+
 @media (max-width: 415px) {
   .small_font {
     font-size: 0.7rem;
+  }
+
+  .medium_font {
+    font-size: 1.3rem;
+  }
+
+  .deal {
+    display: flex;
+  }
+
+  .deal_image {
+    padding-bottom: 2%;
+    padding-right: 2%;
   }
 }
